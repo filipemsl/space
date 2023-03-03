@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+.container {
+  /* height: 3487px; */
+  background: rgb(139, 196, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(139, 196, 255, 1) 0%,
+    rgba(235, 245, 255, 1) 50%,
+    rgba(155, 205, 255, 1) 100%
+  );
+  margin: auto;
+}
+
+#header {
+  padding: 2.5rem 5rem;
+}
+#hero {
+  height: 100%;
+  margin-top: 40px;
+  background: url("/assets/planet.png") no-repeat top right;
+  overflow-y: hidden;
+  padding: 0 0 0 5rem;
+}
+
+#hero h3 {
+  font-family: "Fjalla One", sans-serif;
+  line-height: 115%;
+  font-size: 32px;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: #f7d6e0;
+  height: 37px;
+}
+
+#hero h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 96px;
+  line-height: 115%;
+  color: #f7d6e0;
+  margin-top: 44px;
+  margin-bottom: 40px;
+}
+
+#hero button {
+  background: #414361;
+  color: #f7d6e0;
+  border: 6px solid #d9d9d9;
+  border-radius: 40px;
+  font-family: "Fjalla One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 115%;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+#hero button:hover {
+  background: #2b2d41;
+  transition: all 0.4s;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 5rem;
+  padding: 3.75rem 5rem;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.cta h3 {
+  font-family: "Fjalla One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 115%;
+  color: #2a2d43;
+}
+
+.info {
+  display: flex;
+gap: 3rem;
+}
+
+.cta p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 115%;
+  color: #2a2d43;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  border-right: 2px solid #000;
+}
+
+.customers {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3.75rem 5rem;  
+}
+
+.customers h3 {
+  font-family: "Fjalla One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 115%;
+  color: #2a2d43;
+  text-align: center;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+div.scrollmenu::-webkit-scrollbar {
+  display: none;
+  
+}
+
+.customersImg {
+  display: inline-block;
+  width: 264px;
+  height: 524px;
+  border: 6px solid #2A2D43;
+border-radius: 48px;
+overflow: hidden;
+background:#2A2D43;
+}
+
+.customersImg div p {
+  margin-top:8px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 115%;
+   color: #F7D6E0;
+   text-align: center;
+}
+
+div.scrollProduct {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollProduct::-webkit-scrollbar {
+  display: none;
+}
+
+.productImg {
+  border-radius: 80px;
+  width: 1101px;
+  height: 556px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+
+footer {
+  display: flex;
+  gap: 6.25rem;
+  padding: 5rem;
+  background: #2a2d43;
+}
+
+footer h3 {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 115%;  
+  color: #F7D6E0;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 145%;
+  color: #F7D6E0;
+  text-decoration: none;  
+}
